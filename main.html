@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Main Page • Creative Arts</title>
+  <link rel="stylesheet" href="main.css"/>
+</head>
+<body>
+  <!-- Header / Navbar -->
+  <header class="site-header">
+    <div class="brand">
+      <!-- simple SVG brush logo -->
+      <svg viewBox="0 0 64 24" aria-hidden="true">
+        <path d="M3 20c10-8 24-8 38-6 12 2 18-3 20-12" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+      </svg>
+      <span>Art & Paint</span>
+    </div>
+
+    <nav class="nav">
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html">Gallery</a></li>
+        <li><a href="reservation.html">Custom Work</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Hand-Painted Originals & Creative Prints</h1>
+      <p>Made with love, color, and a tiny bit of chaos.</p>
+      <div class="cta">
+        <a class="btn primary" href="#featured">Shop New Arrivals</a>
+        <a class="btn ghost" href="reservation.html">Request a Custom</a>
+      </div>
+    </div>
+
+    <!-- floating paint blobs -->
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+    <div class="blob b3"></div>
+    <div class="blob b4"></div>
+  </section>
+
+  <!-- Wavy divider -->
+  <div class="divider" aria-hidden="true">
+    <svg viewBox="0 0 1440 80" preserveAspectRatio="none">
+      <path d="M0,48 C240,96 480,0 720,32 C960,64 1200,64 1440,16 L1440,80 L0,80Z"></path>
+    </svg>
+  </div>
+
+  <!-- Featured Gallery -->
+  <section id="featured" class="featured">
+    <h2 class="reveal">Featured Pieces</h2>
+    <p class="lead reveal">Every piece is unique. Hover to feel the depth; click to know more.</p>
+
+    <div class="gallery">
+      <!-- Pure CSS “art” placeholders – replace with your images later -->
+      <article class="card reveal tilt">
+        <div class="art-thumb a1"></div>
+        <div class="meta">
+          <h3>Midnight Bloom</h3>
+          <p>Ink on textured paper</p>
+          <div class="price">₹2,499</div>
+        </div>
+        <button class="btn tiny">Add to Cart</button>
+      </article>
+
+      <article class="card reveal tilt">
+        <div class="art-thumb a2"></div>
+        <div class="meta">
+          <h3>City in Water</h3>
+          <p>Watercolor, A3</p>
+          <div class="price">₹1,899</div>
+        </div>
+        <button class="btn tiny">Add to Cart</button>
+      </article>
+
+      <article class="card reveal tilt">
+        <div class="art-thumb a3"></div>
+        <div class="meta">
+          <h3>Sunset Threads</h3>
+          <p>Acrylic on canvas</p>
+          <div class="price">₹3,200</div>
+        </div>
+        <button class="btn tiny">Add to Cart</button>
+      </article>
+
+      <article class="card reveal tilt">
+        <div class="art-thumb a4"></div>
+        <div class="meta">
+          <h3>Forest Whisper</h3>
+          <p>Mixed media</p>
+          <div class="price">₹2,150</div>
+        </div>
+        <button class="btn tiny">Add to Cart</button>
+      </article>
+    </div>
+  </section>
+
+  <!-- Ribbon / Marquee -->
+  <section class="ribbon" aria-label="categories">
+    <div class="track">
+      <span>Originals • Prints • Custom Portraits • Abstract • Floral • Minimal • Calligraphy •</span>
+      <span>Originals • Prints • Custom Portraits • Abstract • Floral • Minimal • Calligraphy •</span>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p>© 2025 Art & Paint — Handmade in India.</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
